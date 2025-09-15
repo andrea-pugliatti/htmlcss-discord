@@ -157,6 +157,11 @@ nav .login-button {
 	background-color: var(--bg-secondary);
 }
 
+.meeting {
+	background-color: var(--bg-secondary);
+	text-align: center;
+}
+
 .banner-image {
     flex-basis: 60%;
 	img {
@@ -180,6 +185,28 @@ nav .login-button {
 .banner-text p {
 	font-size: 1rem;
     line-height: 150%;
+}
+
+.meeting-call-to-action {
+	justify-self: baseline;
+	align-self: center;
+	padding: 1rem;
+}
+
+.meeting-call-to-action h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+	padding: 2rem;
+}
+
+.meeting-call-to-action a {
+    padding: .8rem 1.6rem;
+    border-radius: 20px;
+    background-color: var(--dis-color-button);
+    color: white;
+    font-size: .9rem;
+	text-decoration: none;
 }
 
 /* Footer */
