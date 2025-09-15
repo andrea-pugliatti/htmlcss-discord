@@ -338,3 +338,71 @@ nav .login-button:hover {
 		background-color: var(--dis-color-border);
 	}
 }
+
+/* Download Page */
+.download-for-mac {
+	background: linear-gradient(var(--bg-header), #9198e5);
+	text-align: center;
+	padding: 5rem 0 10rem;
+	h2 {
+		color: white;
+		font-size: 5rem;
+		padding-bottom: 2rem;
+	}
+	p {
+		padding-bottom: 2rem;
+	}
+}
+
+.hero-image {
+	background: linear-gradient(#9198e5, black);
+}
+
+.download-for-desktop {
+	background: black;
+	text-align: start;
+	padding: 5rem 0 10rem;
+	h2 {
+		color: white;
+		font-size: 5rem;
+		padding-bottom: 2rem;
+	}
+	p {
+		color: white;
+		padding-bottom: 2rem;
+	}
+}
+
+.download-desktop {
+    padding: .8rem 1.6rem;
+	margin-right: 1rem;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: .9rem;
+	cursor: pointer;
+
+	&:hover {
+		background-color: var(--dis-color-button);
+		a {
+			color: white;
+		}
+	}
+}
+
+.download-text {
+	padding: 5rem;
+}
+.download-rectangle {
+	border-radius: 120px;
+	background: linear-gradient(171deg,#35ed7e,#c8ffef);
+    width: 60%;
+    padding-top: 10rem;
+    padding-left: 10rem;
+	img {
+		height: 50rem;
+		margin: -1rem;
+		border-radius: 20px;
+		border-bottom-right-radius: 120px;
+	}
+}
