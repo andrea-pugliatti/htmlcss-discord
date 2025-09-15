@@ -36,14 +36,16 @@ body {
 }
 
 .container-sm {
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .jc-space-between {
 	justify-content: space-between;
+}
+
+.jc-center {
+	justify-content: center;
 }
 
 .center {
@@ -76,22 +78,67 @@ nav .middle-row {
 }
 
 nav .login-button {
-	color:black;
 	background-color: white;
 	padding: .5rem 1rem;
 	border-radius: 2rem;
 	a {
+		color:black;
 		text-decoration: none;
 	}
 }
 
 
-/* Main */
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+	min-height: 500px;
+}
+
+.jumbo-content {
+    margin: 5rem 0;
+    color: white;
+    text-align: center;
+}
+
+.jumbo-content h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.jumbo-content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 150%;
+}
+
+.download-button {
+    padding: .8rem 1.6rem;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+    font-size: .9rem;
+	a {
+		color: black;
+		text-decoration: none;
+	}
+}
+
+.to-app-button {
+    padding: .8rem 1.6rem;
+    border-radius: 2rem;
+    background-color: black;
+    font-size: .9rem;
+    color: white;
+	text-decoration: none;
+	margin-left: 2rem;
+}
+
+/* Banner */
 .banner {
 	padding-top: 5rem;
 }
 
-.jumbotron,
 .b-content {
 	justify-content: center;
 }
