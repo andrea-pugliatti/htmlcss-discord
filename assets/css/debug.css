@@ -8,17 +8,18 @@ footer {
 	background-color: red;
 }
 
-#logo,
-#last-button {
-	height: 50px;
-	width: 100px;
+* {
 	border: 1px dashed black;
+
+}
+
+.logo,
+.login-button {
 	background-color: darkgray;
 }
 
-#middle-row {
-	height: 50px;
-	width: 300px;
+.middle-row {
+	width: 400px;
 	border: 1px dashed black;
 	background-color: darkgray;
 }

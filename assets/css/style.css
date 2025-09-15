@@ -1,3 +1,13 @@
+/* Custom properties */
+:root {
+	--bg-header: #3161e0;
+	--bg-primary: white;
+	--bg-secondary: #f6f6f6;
+	--bg-footer: #23272a;
+	--dis-color-bold: #6f85d2;
+	--dis-color-button: #8ea1e1;
+}
+
 /* Reset */
 * {
 	margin: 0;
@@ -11,15 +21,18 @@ body {
 }
 
 /* Utils */
-.d-flex {
+.d-flex-r {
 	display: flex;
+}
+
+.d-flex-c {
+	display: flex;
+	flex-direction: column;
 }
 
 .container {
 	max-width: 1080px;
 	margin: 0 auto;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .container-sm {
@@ -27,18 +40,49 @@ body {
 	margin: 0 auto;
 	justify-content: space-between;
 	align-items: center;
-
 }
 
-.dir-col {
-	flex-direction: column;
+.jc-space-between {
+	justify-content: space-between;
+}
+
+.center {
+	align-items: center;
 }
 
 /* Header */
-#middle-row {
+header {
+	background-color: var(--bg-header);
+}
+
+.main-header {
+	font-size: .9rem;
+	padding: 1rem;
+}
+
+nav .logo {
+	height: 2rem;
+}
+
+nav .middle-row {
+	min-width: 10rem;
 	justify-content: space-around;
 	align-items: center;
+
+	a {
+		padding: .6rem;
+		text-decoration: none;
+		color: white;
+	}
 }
+
+nav .login-button {
+	color:black;
+	background-color: white;
+	padding: .5rem 1rem;
+	border-radius: 2rem;
+}
+
 
 /* Main */
 .banner {
