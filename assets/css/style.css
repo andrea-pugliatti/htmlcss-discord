@@ -200,6 +200,9 @@ nav .login-button {
     	font-weight: 800;
     	color: black;
 		padding: 2rem;
+		background-image: url(../img/stars.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 	
 	a {
@@ -276,7 +279,7 @@ nav .login-button {
 .nav-grid-item {
     flex-basis: 25%;
 	line-height: 1.8rem;
-	
+
 	h3 {
 		color: var(--dis-color-bold);
 		font-size: .9rem;
