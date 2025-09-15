@@ -146,8 +146,15 @@ nav .login-button {
 }
 
 /* Banner */
-.invite_only {
+.banner {
 	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.invite_only {
+}
+
+.channel {
+	background-color: var(--bg-secondary);
 }
 
 .banner-image {
