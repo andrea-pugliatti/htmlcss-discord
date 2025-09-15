@@ -52,6 +52,17 @@ body {
 	align-items: center;
 }
 
+.wave {
+    mask: url(../img/wave.svg) alpha no-repeat center 70%;
+	background-color: var(--bg-secondary);
+	height: 150px;
+}
+
+.reverse {
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+}
+
 /* Header */
 header {
 	background-color: var(--bg-header);
