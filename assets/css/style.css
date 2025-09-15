@@ -6,6 +6,7 @@
 	--bg-footer: #23272a;
 	--dis-color-bold: #6f85d2;
 	--dis-color-button: #8ea1e1;
+	--dis-color-border: #303746;
 }
 
 /* Reset */
@@ -221,7 +222,6 @@ footer {
 }
 
 .footer-text {
-	min-height: 300px;
     flex-basis: 30%;
 	h2 {
 	    font-size: 1.5rem;
@@ -268,7 +268,6 @@ footer {
 
 
 .nav-grid {
-	min-height: 300px;
     flex-basis: 70%;
 	justify-content: space-around;
 }
@@ -285,6 +284,31 @@ footer {
 		font-size: .9rem;
 		color: white;
 		display: block;
+		text-decoration: none;
+	}
+}
+
+.sec-footer {
+    border-top: 2px solid var(--dis-color-border);
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.sec-footer .logo {
+    justify-self: flex-end;
+    align-self: flex-start;
+}
+
+.sec-footer .login-button {
+    justify-self: flex-end;
+    align-self: flex-start;
+	background-color: var(--dis-color-button);
+	padding: .5rem 1rem;
+	border-radius: 2rem;
+	a {
+		font-size: .9rem;
+		color:white;
 		text-decoration: none;
 	}
 }
