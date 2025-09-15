@@ -1,0 +1,66 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/* Utils */
+.d-flex {
+	display: flex;
+}
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container-sm {
+	max-width: 600px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.dir-col {
+	flex-direction: column;
+}
+
+/* Header */
+#middle-row {
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* Main */
+.banner {
+	padding-top: 5rem;
+}
+
+.jumbotron,
+.b-content {
+	justify-content: center;
+}
+
+.card {
+	justify-content: space-between;
+	gap: 3rem;
+}
+
+/* Footer */
+.footer-container {
+	padding: 1rem;
+	justify-content: flex-start;
+}
+
+.f-right {
+	justify-content: space-around;
+}

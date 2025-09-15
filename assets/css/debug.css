@@ -1,0 +1,95 @@
+/* Debug */
+header,
+footer {
+	background-color: lightgreen;
+}
+
+.main-header {
+	background-color: red;
+}
+
+#logo,
+#last-button {
+	height: 50px;
+	width: 100px;
+	border: 1px dashed black;
+	background-color: darkgray;
+}
+
+#middle-row {
+	height: 50px;
+	width: 300px;
+	border: 1px dashed black;
+	background-color: darkgray;
+}
+
+.banner {
+	border: 1px dashed black;
+	background-color: lightblue;
+}
+
+.jumbotron,
+.b-content {
+	height: 500px;
+	border: 1px dashed black;
+	background-color: red;
+}
+
+.wave {
+	height: 200px;
+	border: 1px dashed black;
+	background-color: white;
+}
+
+.card-image {
+	height: 200px;
+	width: 300px;
+	border: 1px dashed black;
+	background: lightgray;
+}
+
+.card-text {
+	height: 200px;
+	width: 200px;
+	border: 1px dashed black;
+	background: lightgray;
+}
+
+.footer-container {
+	height: 400px;
+}
+
+.main-footer {
+	height: 300px;
+	width: 1080px;
+	border: 1px dashed black;
+	background-color: red;
+}
+
+.f-left {
+	height: 300px;
+	width: 25%;
+	border: 1px dashed black;
+	background-color: lightgray;
+}
+
+.f-right {
+	height: 300px;
+	width: 70%;
+	border: 1px dashed black;
+	background-color: lightgray;
+}
+
+.f-small-right {
+	height: 300px;
+	width: 25%;
+	border: 1px dashed black;
+	background-color: blue;
+}
+
+.sec-footer {
+	height: 60px;
+	width: 1080px;
+	border: 1px dashed black;
+	background-color: red;
+}
