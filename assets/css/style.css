@@ -101,8 +101,17 @@ nav .middle-row {
 
 nav .login-button {
 	background-color: white;
+	cursor: pointer;
 	padding: .5rem 1rem;
 	border-radius: 2rem;
+}
+
+nav .login-button:hover {
+	background-color: var(--dis-color-button);
+	
+	a {
+		color: white;
+	}
 }
 
 
@@ -136,6 +145,14 @@ nav .login-button {
     background-color: white;
     color: black;
     font-size: .9rem;
+	cursor: pointer;
+
+	&:hover {
+		background-color: var(--dis-color-button);
+		a {
+			color: white;
+		}
+	}
 }
 
 .to-app-button {
@@ -146,6 +163,10 @@ nav .login-button {
     color: white;
 	text-decoration: none;
 	margin-left: 2rem;
+
+	&:hover {
+		background-color: var(--dis-color-border);
+	}
 }
 
 /* Banner */
@@ -211,6 +232,10 @@ nav .login-button {
 	    background-color: var(--dis-color-button);
     	color: white;
 	    font-size: .9rem;
+
+		&:hover {
+			background-color: var(--dis-color-border);
+		}
 	}
 }
 
@@ -302,9 +327,14 @@ nav .login-button {
 	background-color: var(--dis-color-button);
 	padding: .5rem 1rem;
 	border-radius: 2rem;
+	cursor: pointer;
 	
 	a {
 		font-size: .9rem;
 		color:white;
+	}
+
+	&:hover {
+		background-color: var(--dis-color-border);
 	}
 }
