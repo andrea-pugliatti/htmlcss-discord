@@ -68,7 +68,6 @@ nav .middle-row {
 	min-width: 10rem;
 	justify-content: space-around;
 	align-items: center;
-
 	a {
 		padding: .6rem;
 		text-decoration: none;
@@ -81,6 +80,9 @@ nav .login-button {
 	background-color: white;
 	padding: .5rem 1rem;
 	border-radius: 2rem;
+	a {
+		text-decoration: none;
+	}
 }
 
 
