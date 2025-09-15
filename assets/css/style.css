@@ -16,9 +16,23 @@
 	box-sizing: border-box;
 }
 
+/* Common */
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
+}
+
+header {
+	background-color: var(--bg-header);
+}
+
+footer {
+	background-color: var(--bg-footer);
+}
+
+a {
+	text-decoration: none;
+	color:black;
 }
 
 /* Utils */
@@ -65,10 +79,6 @@ body {
 }
 
 /* Header */
-header {
-	background-color: var(--bg-header);
-}
-
 .main-header {
 	font-size: .9rem;
 	padding: 1rem;
@@ -82,9 +92,9 @@ nav .middle-row {
 	min-width: 10rem;
 	justify-content: space-around;
 	align-items: center;
+	
 	a {
 		padding: .6rem;
-		text-decoration: none;
 		color: white;
 	}
 }
@@ -93,10 +103,6 @@ nav .login-button {
 	background-color: white;
 	padding: .5rem 1rem;
 	border-radius: 2rem;
-	a {
-		color:black;
-		text-decoration: none;
-	}
 }
 
 
@@ -111,17 +117,17 @@ nav .login-button {
     margin: 5rem 0;
     color: white;
     text-align: center;
-}
+	
+	h1 {
+    	font-size: 3rem;
+    	margin-bottom: 2rem;
+	}
 
-.jumbo-content h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-}
-
-.jumbo-content p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    line-height: 150%;
+	p {
+    	font-size: 1rem;
+    	margin-bottom: 2rem;
+   		line-height: 150%;
+	}
 }
 
 .download-button {
@@ -130,10 +136,6 @@ nav .login-button {
     background-color: white;
     color: black;
     font-size: .9rem;
-	a {
-		color: black;
-		text-decoration: none;
-	}
 }
 
 .to-app-button {
@@ -151,8 +153,6 @@ nav .login-button {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
-.invite_only {
-}
 
 .channel {
 	background-color: var(--bg-secondary);
@@ -165,6 +165,7 @@ nav .login-button {
 
 .banner-image {
     flex-basis: 60%;
+	
 	img {
 		min-height: 400px;
 	}
@@ -174,47 +175,43 @@ nav .login-button {
 	flex-basis: 40%;
 	padding-top: 2rem;
 	align-self: flex-start;
+	
+	h1 {
+    	font-size: 2.2rem;
+    	font-weight: 800;
+    	color: black;
+    	margin-bottom: 1rem;
+	}
+
+	p {
+		font-size: 1rem;
+    	line-height: 150%;
+	}
 }
 
-.banner-text h1 {
-    font-size: 2.2rem;
-    font-weight: 800;
-    color: black;
-    margin-bottom: 1rem;
-}
-
-.banner-text p {
-	font-size: 1rem;
-    line-height: 150%;
-}
 
 .meeting-call-to-action {
 	justify-self: baseline;
 	align-self: center;
 	padding: 1rem;
-}
-
-.meeting-call-to-action h2 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: black;
-	padding: 2rem;
-}
-
-.meeting-call-to-action a {
-    padding: .8rem 1.6rem;
-    border-radius: 20px;
-    background-color: var(--dis-color-button);
-    color: white;
-    font-size: .9rem;
-	text-decoration: none;
+	
+	h2 {
+    	font-size: 1.5rem;
+    	font-weight: 800;
+    	color: black;
+		padding: 2rem;
+	}
+	
+	a {
+    	padding: .8rem 1.6rem;
+    	border-radius: 20px;
+	    background-color: var(--dis-color-button);
+    	color: white;
+	    font-size: .9rem;
+	}
 }
 
 /* Footer */
-footer {
-	background-color: var(--bg-footer);
-}
-
 .main-footer {
 	padding: 5rem 0;
 	gap: 3rem;
@@ -223,6 +220,7 @@ footer {
 
 .footer-text {
     flex-basis: 30%;
+	
 	h2 {
 	    font-size: 1.5rem;
     	font-weight: 800;
@@ -256,12 +254,15 @@ footer {
 .facebook-icon {
     mask: url(../img/facebook_icon.svg) alpha no-repeat center 70%;
 }
+
 .twitter-icon {
     mask: url(../img/twitter_icon.svg) alpha no-repeat center 70%;
 }
+
 .instagram-icon {
     mask: url(../img/instagram_icon.svg) alpha no-repeat center 70%;
 }
+
 .youtube-icon {
     mask: url(../img/youtube_icon.svg) alpha no-repeat center 70%;
 }
@@ -274,41 +275,33 @@ footer {
 
 .nav-grid-item {
     flex-basis: 25%;
+	line-height: 1.8rem;
+	
 	h3 {
 		color: var(--dis-color-bold);
-		line-height: 1.8rem;
 		font-size: .9rem;
 	}
+	
 	a {
-		line-height: 1.8rem;
 		font-size: .9rem;
 		color: white;
 		display: block;
-		text-decoration: none;
 	}
 }
 
 .sec-footer {
     border-top: 2px solid var(--dis-color-border);
     flex-basis: 100%;
-    justify-content: space-between;
     padding: 1.5rem 0;
 }
 
-.sec-footer .logo {
-    justify-self: flex-end;
-    align-self: flex-start;
-}
-
 .sec-footer .login-button {
-    justify-self: flex-end;
-    align-self: flex-start;
 	background-color: var(--dis-color-button);
 	padding: .5rem 1rem;
 	border-radius: 2rem;
+	
 	a {
 		font-size: .9rem;
 		color:white;
-		text-decoration: none;
 	}
 }
